@@ -1,3 +1,8 @@
-const n = ['this', 'that' , 'is'];
+var numberOfTrees = 234;
+var nameOfTree = "rose";
+var trees = {
+    numberOfTrees,
+    nameOfTree
+}
 
-console.log(`rafi ${n.map(function(n){ return `${n}!`}).join(', ')}`);
+console.log(trees)
