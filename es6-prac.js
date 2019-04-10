@@ -1,20 +1,14 @@
-var numberOfTrees = 234;
-var nameOfTree = "rose";
-var trees = {
-    numberOfTrees,
-    nameOfTree
+////functions in objects
+
+
+var book1 = {
+    name : "neural nets",
+    pages : 50,
+    incrementOfPages () {
+        this.pages++;
+    }
 }
 
-
-////es5
-
-var pages = "pages";
-
-var book = {
-    name : "neural nets"
-}
-
-book[pages] = 50
-
-console.log(book);
+book1.incrementOfPages()
+console.log(book1);
 
