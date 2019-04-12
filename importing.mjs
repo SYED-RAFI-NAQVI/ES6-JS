@@ -1,3 +1,4 @@
-import {add} from "./exporting";
+import {add, sub} from "./exporting";
 
 console.log(add(2,3))
+console.log(sub(2,3))
